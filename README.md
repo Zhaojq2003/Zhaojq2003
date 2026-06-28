@@ -17,35 +17,18 @@
 
 ---
 
-## 🎓 About Me
+## About Me
 
-> 热爱科研，深耕控制理论与仿生算法。从大一进组至今已积累两段科研经历，致力于将理论方法转化为可落地的工程工具。
-
-- 🏫 **硕士在读** | 北方工业大学 · 控制工程与科学（2025.09—至今）
-- 🎓 **本科毕业** | 温州大学 · 人工智能（2021.09—2025.06）
-- 🔬 **研究兴趣**：昆虫仿生避障算法 · 无模型自适应控制(MFAC) · 谱分析 · 红外弱小目标识别
-- 🐝 **科研理念**：理论扎实，代码落地，知行合一
-
----
-
-## 🔬 Research & Publications
-
-| 类型 | 论文/项目 | 状态 |
-|:----:|-----------|:----:|
-| 🥇 **一作** | HERA: A Hopfield-Enhanced Reflexive Framework for Risk Assessment in Hazardous Environments（TIP, **IF: 13.7**） | 在投 |
-| 🥇 **一作** | 红外弱小目标识别 | [arXiv](https://arxiv.org/html/2402.18003v1) |
-| 🥈 **二作** | Singular Spectrum Analysis Based Model-Free Adaptive Control with Variable Memory Depth for Air–Ground Robots（**IF: 3.2**） | 在投 |
-| 🥉 **三作** | Tensor completion via leverage sampling and tensor QR decomposition for network latency estimation（**IF: 3.4**） | [已发表](https://doi.org/10.1007/s10489-025-06573-4) |
-
-**科研经历**：
-- 浙江省自然科学基金项目 · **研究助理**
-- 广州大学 · **科研助理**
+- **硕士在读** | 北方工业大学 · 控制工程与科学（2025.09—至今）
+- **本科毕业** | 温州大学 · 人工智能（2021.09—2025.06）
+- **研究兴趣**：昆虫仿生避障算法 · 无模型自适应控制(MFAC) · 谱分析 · 红外弱小目标识别
+- **科研理念**：理论扎实，代码落地，知行合一
 
 ---
 
 ## 🚀 Open Source
 
-<!-- 只展示公开仓库，mfac_toolkit -->
+<!-- mfac_toolkit -->
 
 ### [`mfac_toolkit`](https://github.com/Zhaojq2003/mfac_toolkit) — 无模型自适应控制 Python 工具包
 
@@ -65,60 +48,11 @@ controller = create_controller(controller)
 u = controller.update(y=0.0, yd=1.0)  # 下一时刻控制输入
 ```
 
-📦 PyPI 安装：`pip install mfac-toolkit`
-
-> 🔧 **Rust 底层源码**：如有学术研究或工程定制需求，欢迎联系课题组获取底层源码。Python 层已完全开源可扩展。
+PyPI 安装：`pip install mfac-toolkit`
 
 ---
 
-## 🛠️ Tech Stack
-
-<!-- 技能徽章 -->
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=flat)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?logo=mathworks&logoColor=white&style=flat)
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white&style=flat)
-
-**Control & Robotics**
-
-![Control Theory](https://img.shields.io/badge/MFAC-FF6B6B?style=flat)
-![Adaptive Control](https://img.shields.io/badge/Adaptive%20Control-4ECDC4?style=flat)
-![Robotics](https://img.shields.io/badge/Robotics-45B7D1?style=flat)
-![PX4](https://img.shields.io/badge/PX4-333333?logo=px4&logoColor=white&style=flat)
-
-**AI & Data Science**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=flat)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=flat)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
-
----
-
-## 🏆 Awards & Honors
-
-| 年份 | 竞赛/荣誉 | 奖项 |
-|:----:|-----------|:----:|
-| 2026 | 第十六届 MathorCup 数学应用挑战赛（研究生组） | 🥇 **国奖** |
-| 2026 | 挑战杯课外学术科技作品竞赛 | 🥈 **国奖**（第三位次）|
-| 2024 | 浙江省大学生高等数学竞赛 | 工科类 **三等奖** |
-| 2024 | 温州大学第十一届"挑战杯" | **金奖** |
-| 2023 | 美国大学生数学建模竞赛 MCM/ICM | **H 奖** |
-| 2023 | 高教社杯全国大学生数学建模 | **省三等奖** |
-
----
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -144,14 +78,14 @@ u = controller.update(y=0.0, yd=1.0)  # 下一时刻控制输入
 
 ---
 
-## 📫 Contact
+## Contact
 
-- 📧 **Email**: [zhaojq2003@163.com](mailto:zhaojq2003@163.com)
-- 🏫 **Affiliation**: 北方工业大学 · RobotX 实验室
-- 🌐 **GitHub**: [@Zhaojq2003](https://github.com/Zhaojq2003)
-- 📍 **Location**: 北京，中国
+- **Email**: [zhaojq2003@163.com](mailto:zhaojq2003@163.com)
+- **Affiliation**: 北方工业大学 · RobotX 实验室
+- **GitHub**: [@Zhaojq2003](https://github.com/Zhaojq2003)
+- **Location**: 北京，中国
 
-> 💡 **合作交流**：欢迎对 MFAC、仿生算法、机器人控制等方向感兴趣的老师同学联系交流！
+> **合作交流**：欢迎对 MFAC、仿生算法、机器人控制等方向感兴趣的老师同学联系交流！
 
 ---
 
