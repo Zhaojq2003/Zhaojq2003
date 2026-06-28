@@ -21,7 +21,7 @@
 
 - **Master's Student** | North China University of Technology · Control Science and Engineering (Sept. 2025 – Present)
 - **Bachelor's Graduate** | Wenzhou University · Artificial Intelligence (Sept. 2021 – June 2025)
-- **Research Interests**: Insect Bionic Obstacle Avoidance Algorithms · Model-Free Adaptive Control (MFAC) · Spectral Analysis · Infrared Weak Small Target Detection
+- **Research Interests**: Model-Free Adaptive Control (MFAC) · Bio-inspired Algorithm
 - **Research Philosophy**: Solid Theory, Code That Ships, Unity of Knowledge and Action
 
 ---
