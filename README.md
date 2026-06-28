@@ -57,7 +57,7 @@ PyPI Install: `pip install mfac-toolkit`
 <div align="center">
 
 <!-- GitHub Trophy -->
-[![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Zhaojq2003&theme=algolia&column=7&margin-w=10&margin-h=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Trophy](https://github-profile-trophy-fork-two.vercel.app/?username=Zhaojq2003&theme=algolia&column=7&margin-w=10&margin-h=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- GitHub Stats Cards -->
 <table>
