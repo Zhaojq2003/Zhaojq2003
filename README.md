@@ -1,12 +1,12 @@
 <div align="center">
 
-<!-- Capsule Render 动态横幅 -->
+<!-- Capsule Render Dynamic Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:2E8BFF,100:6366F1&height=200&section=header&text=Jiqian%20Zhao&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Control%20Theory%20%7C%20MFAC%20%7C%20Bionic%20Algorithms&descSize=16&descAlignY=55" />
 
-<!-- 打字机效果 -->
+<!-- Typing Effect -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Model-Free+Adaptive+Control+%7C+MFAC;Bionic+LGMD+%7C+Infrared+Small+Target;Control+Science+%26+Engineering;Passionate+about+Research)](https://git.io/typing-svg)
 
-<!-- 访客计数 & 社交徽章 -->
+<!-- Visitor Counter & Social Badges -->
 <img src="https://komarev.com/ghpvc/?username=Zhaojq2003&label=Profile%20Views&color=36BCF7&style=flat" alt="Profile Views" />
 &nbsp;
 <a href="mailto:zhaojq2003@163.com"><img src="https://img.shields.io/badge/Email-zhaojq2003@163.com-EA4335?logo=gmail&logoColor=white&style=flat" /></a>
@@ -19,18 +19,18 @@
 
 ## About Me
 
-- **硕士在读** | 北方工业大学 · 控制工程与科学（2025.09—至今）
-- **本科毕业** | 温州大学 · 人工智能（2021.09—2025.06）
-- **研究兴趣**：昆虫仿生避障算法 · 无模型自适应控制(MFAC) · 谱分析 · 红外弱小目标识别
-- **科研理念**：理论扎实，代码落地，知行合一
+- **Master's Student** | North China University of Technology · Control Science and Engineering (Sept. 2025 – Present)
+- **Bachelor's Graduate** | Wenzhou University · Artificial Intelligence (Sept. 2021 – June 2025)
+- **Research Interests**: Insect Bionic Obstacle Avoidance Algorithms · Model-Free Adaptive Control (MFAC) · Spectral Analysis · Infrared Weak Small Target Detection
+- **Research Philosophy**: Solid Theory, Code That Ships, Unity of Knowledge and Action
 
 ---
 
-## 🚀 Open Source
+## Open Source
 
 <!-- mfac_toolkit -->
 
-### [`mfac_toolkit`](https://github.com/Zhaojq2003/mfac_toolkit) — 无模型自适应控制 Python 工具包
+### [`mfac_toolkit`](https://github.com/Zhaojq2003/mfac_toolkit) — Model-Free Adaptive Control Python Toolkit
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white&style=flat" />
@@ -38,17 +38,17 @@
   <img src="https://img.shields.io/badge/SISO%2FMIMO-Supported-blueviolet?style=flat" />
 </p>
 
-面向 SISO/MIMO 离散时间系统的 **MFAC（无模型自适应控制）** Python 工具包，底层核心采用 Rust 编写，提供高性能的计算效率。支持 CFDL / PFDL / FFDL 三种动态线性化格式，统一 `controller.update(y, yd)` 接口，YAML 配置驱动。
+A **Model-Free Adaptive Control (MFAC)** Python toolkit for SISO/MIMO discrete-time systems, with its core computational engine written in Rust for high performance. Supports three dynamic linearization formats—CFDL, PFDL, and FFDL—through a unified `controller.update(y, yd)` interface, driven by YAML configuration.
 
 ```python
 from mfac_toolkit import MFACConfig, create_controller
 
 config = MFACConfig.from_yaml("siso_config.yaml")
 controller = create_controller(controller)
-u = controller.update(y=0.0, yd=1.0)  # 下一时刻控制输入
+u = controller.update(y=0.0, yd=1.0)  # next control input
 ```
 
-PyPI 安装：`pip install mfac-toolkit`
+PyPI Install: `pip install mfac-toolkit`
 
 ---
 
@@ -56,10 +56,10 @@ PyPI 安装：`pip install mfac-toolkit`
 
 <div align="center">
 
-<!-- GitHub 奖杯 -->
+<!-- GitHub Trophy -->
 [![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Zhaojq2003&theme=algolia&column=7&margin-w=10&margin-h=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 
-<!-- GitHub 统计卡片 -->
+<!-- GitHub Stats Cards -->
 <table>
 <tr>
 <td>
@@ -71,7 +71,7 @@ PyPI 安装：`pip install mfac-toolkit`
 </tr>
 </table>
 
-<!-- 贡献热力图 -->
+<!-- Contribution Heatmap -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zhaojq2003&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=36BCF7&line=2E8BFF&point=6366F1" width="95%" />
 
 </div>
@@ -81,17 +81,17 @@ PyPI 安装：`pip install mfac-toolkit`
 ## Contact
 
 - **Email**: [zhaojq2003@163.com](mailto:zhaojq2003@163.com)
-- **Affiliation**: 北方工业大学 · RobotX 实验室
+- **Affiliation**: North China University of Technology · RobotX Lab
 - **GitHub**: [@Zhaojq2003](https://github.com/Zhaojq2003)
-- **Location**: 北京，中国
+- **Location**: Beijing, China
 
-> **合作交流**：欢迎对 MFAC、仿生算法、机器人控制等方向感兴趣的老师同学联系交流！
+> **Collaboration**: Teachers and students interested in MFAC, bionic algorithms, robot control, and related directions are welcome to reach out!
 
 ---
 
 <div align="center">
 
-<!-- 底部横幅 -->
+<!-- Bottom Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:2E8BFF,100:6366F1&height=120&section=footer" />
 
 </div>
